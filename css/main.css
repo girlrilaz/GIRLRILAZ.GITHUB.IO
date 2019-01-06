@@ -641,7 +641,7 @@ ul.sub-menu {
 }
 
 .progress-bar {
-   background-color: #f4bf00;
+   background-color: #5D6D7E;
    box-shadow: none;
   -webkit-transition: width 2s ease-in-out;
   -moz-transition: width 2s ease-in-out;
@@ -652,23 +652,23 @@ ul.sub-menu {
 }
 
 .progress-bar.bar1 {
-    background-color: #b90162;
+    background-color: #5D6D7E  ;
 }
 
 .progress-bar.bar2 {
-    background-color: #3c70b4;
+    background-color: #5D6D7E  ;
 }
 
 .progress-bar.bar3 {
-    background-color: #f26522;
+    background-color: #5D6D7E  ;
 }
 
 .progress-bar.bar4 {
-    background-color: #ed1c24;
+    background-color: #5D6D7E  ;
 }
 
 .progress-bar.bar5 {
-    background-color: #87c05e;
+    background-color: #5D6D7E  ;
 }
 
 .language-skill {
@@ -693,15 +693,15 @@ ul.sub-menu {
     width: 116px;
     height: 116px;
     line-height: 116px;
-    background-color: #f7941d;
+    background-color: #f26522;
     border-radius: 50%;
     color: #fff;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .language-skill .percent1 {
-    background-color: #f26522;
+    background-color: #ed1c24;
 }
 
 .language-skill .percent2 {
@@ -709,12 +709,20 @@ ul.sub-menu {
 }
 
 .language-skill .percent3 {
-    background-color: #87c05e;
+    background-color: #3c70b4;
 }
 
+
 .language-skill .percent:after {
-    content: '%';
+    content: 'English';
 }
+.language-skill .percent1:after {
+    content: 'Malay';
+}
+.language-skill .percent2:after {
+    content: 'Italian';
+}
+
 
 .language-skill .chart h5 {
     text-align: center;
@@ -983,7 +991,7 @@ img.mfp-img {
     color: #EA4C89;
 }
 
-.contact-section .social i.fa-behance:hover {
+.contact-section .social i.fa-linkedin:hover {
     color: #2E99D1;
 }
 
